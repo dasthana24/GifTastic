@@ -1,0 +1,59 @@
+body{
+    background: url("../images/body.jpg")
+}
+
+
+header {
+    text-align: center;
+    background:url("../images/45031.jpg");
+    background-size:cover;
+    color:darkblue;
+    border: 2.5px solid darkblue;
+  }
+ 
+  h2 {
+    font-size:70px;
+    font-family: Lobster;
+    color: chocolate;
+  }
+  img {
+    margin:40px 0px 0px 0px;
+    border:7px solid white;
+    border-radius:50%;
+    
+  }
+  
+  
+.ratings {
+    color: orange;
+    font-family: avenir;
+    font-size: 18px;
+}
+
+
+
+.btn-primary {
+    margin-left: 10px;
+    background: orange;
+    color: darkblue;
+}
+
+@media screen and (max-width: 480px) {
+    .movImage {
+        width: 500px;
+        height: 500px;
+    }
+    
+    body {
+        background-color: blue;
+    }
+}
+
+.form-control {
+    width: 40%;
+}
+
+#add {
+    font-size: 20px;
+    color:chocolate;
+}
